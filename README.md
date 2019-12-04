@@ -11,9 +11,9 @@
 ```
 SECRET_KEY=
 DEBUG=
-HOST=
-PORT=
-NAME=
+DATABASE_HOST=
+DATABASE_PORT=
+DATABASE_NAME=
 USERNAME=
 PASSWORD=
 ```
@@ -28,11 +28,8 @@ pip install -r requirements.txt
 ```
 python manage.py runserver 0.0.0.0:8000
 ```
-После этого в браузере должна отобразиться страница по адресу
+После этого в браузере должна отобразиться страница по адресу [http://127.0.0.0.1:8000](http://127.0.0.0.1:8000)
 
-```
-http://127.0.0.0.1:8000
-```
 
 ### Цель проекта
 
